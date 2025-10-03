@@ -2,12 +2,9 @@
 #include "algorithm"
 #include "string"
 
-void DecToDifChislo()
+void DecToDifChislo(int num, std::string& result)
 {
-    std::string result = "";
-    int num, syst;
-    std::cout << "Enter a decimal number: ";
-    std::cin >> num;
+    int syst;
     std::cout << "Enter the base system: ";
     std::cin >> syst;
 
@@ -26,13 +23,10 @@ void DecToDifChislo()
     std::cout << result << std::endl;
 }
 
-void DifChisloToDec()
+void DifChisloToDec(std::string& num)
 {
     int result = 0;
-    std::string num;
     int base;
-    std::cout << "Enter a number in base: ";
-    std::cin >> num;
     std::cout << "Enter the base system: ";
     std::cin >> base;
 
@@ -45,8 +39,14 @@ void DifChisloToDec()
 }
 
 
+
+
 int main() {
-    DecToDifChislo();
-    DifChisloToDec();
+    std::string result = "";
+    int num;
+    std::cout << "Enter a decimal number: ";
+    std::cin >> num;
+    DecToDifChislo(num, result);
+    DifChisloToDec(result);
     return 0;
 }
