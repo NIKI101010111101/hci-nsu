@@ -2,6 +2,7 @@
 #include "algorithm"
 #include "string"
 #include <cmath>
+#include <string>
 
 void DecToDifChislo(int num, std::string& result)
 {
@@ -24,7 +25,7 @@ void DecToDifChislo(int num, std::string& result)
     std::cout << result << std::endl;
 }
 
-void DifChisloToDec(std::string& num)
+int DifChisloToDec(std::string& num)
 {
     int result = 0;
     int base;
@@ -37,6 +38,7 @@ void DifChisloToDec(std::string& num)
         result = result * base + digit;
     }
     std::cout << "Decimal representation: " << result << std::endl;
+    return result;
 }
 
 void FloatDecToDifChislo(double num, std::string& result)
@@ -85,14 +87,58 @@ void FloatDifChisloToDec(std::string& num)
     std::cout << "Decimal representation: " << result << std::endl;
 }
 
+// task 5
+void DifToDif(std::string& result)
+{
+    int base1, base2;
+    std::string num;
+    std::cout << "Enter the first base system: ";
+    std::cin >> base1;
+    std::cout << "Enter the second base system: ";
+    std::cin >> base2;
+    std::cout << "Enter the number: ";
+    std::cin >> num;
+
+    if (base1 == base2)
+    {
+        std::cout << "The number in the same base system is: " << num << std::endl;
+        return;
+    }
+
+    if (base1 == 10)
+    {
+        std::cout << "The number in the base system " << base2 << " is: ";
+        int num_int = std::stoi(num);
+        DecToDifChislo(num_int, result);
+        return;
+    }
+
+    if (base2 == 10)
+    {
+        std::cout << "The number in the base system " << base1 << " is: ";
+        DifChisloToDec(num);
+        return;
+    }
+
+    if (base1 != base2)
+    {
+        std::cout << "The number in the base system " << base2 << " is: ";
+        int num_int = DifChisloToDec(num);
+        DecToDifChislo(num_int, result);
+        return;
+    }
+}
+
 int main() {
     std::string result = "";
-    double num;
-    std::cout << "Enter a decimal number: ";
-    std::cin >> num;
+    // int num = 42;
+    DifToDif(result);
+    // double num;
+    // std::cout << "Enter a decimal number: ";
+    // std::cin >> num;
     // DecToDifChislo(num, result);
     // DifChisloToDec(result);
-    FloatDecToDifChislo(num, result);
-    FloatDifChisloToDec(result);
+    // FloatDecToDifChislo(num, result);
+    // FloatDifChisloToDec(result);
     return 0;
 }
