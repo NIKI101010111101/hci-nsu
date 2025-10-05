@@ -38,15 +38,40 @@ void DifChisloToDec(std::string& num)
     std::cout << "Decimal representation: " << result << std::endl;
 }
 
+void FloatDecToDifChislo(double num, std::string& result)
+{
+    int base, sing;
+    std::cout << "Enter the base system: ";
+    std::cin >> base;
+    std::cout << "Enter the sign after zapyatay: ";
+    std::cin >> sing;
 
+    const double eps = 1e-5;
+    result = "0.";
+
+    for (int i = 0; i < sing; ++i)
+    {
+        if (num < eps)
+            break;
+        num *= base;
+        int digit = static_cast<int>(num);
+        if (digit < 10)
+            result += '0' + digit;
+        else
+            result += 'a' + (digit - 10);
+        num -= digit;
+    }
+    std::cout << result << std::endl;
+}
 
 
 int main() {
     std::string result = "";
-    int num;
+    double num;
     std::cout << "Enter a decimal number: ";
     std::cin >> num;
-    DecToDifChislo(num, result);
-    DifChisloToDec(result);
+    // DecToDifChislo(num, result);
+    // DifChisloToDec(result);
+    FloatDecToDifChislo(num, result);
     return 0;
 }
