@@ -1,6 +1,7 @@
 #include <iostream>
 #include "algorithm"
 #include "string"
+#include <cmath>
 
 void DecToDifChislo(int num, std::string& result)
 {
@@ -64,6 +65,25 @@ void FloatDecToDifChislo(double num, std::string& result)
     std::cout << result << std::endl;
 }
 
+void FloatDifChisloToDec(std::string& num)
+{
+    int base;
+    std::cout << "Enter the base system: ";
+    std::cin >> base;
+
+    double result = 0;
+    int point = num.find('.');
+
+    double power = 1.0 / base;
+
+    for (int i = point + 1; i < num.length(); i++)
+    {
+        int digit = (num[i] >= '0' && num[i] <= '9') ? num[i] - '0' : num[i] - 'a' + 10;
+        result += digit * power;
+        power /= base;
+    }
+    std::cout << "Decimal representation: " << result << std::endl;
+}
 
 int main() {
     std::string result = "";
@@ -73,5 +93,6 @@ int main() {
     // DecToDifChislo(num, result);
     // DifChisloToDec(result);
     FloatDecToDifChislo(num, result);
+    FloatDifChisloToDec(result);
     return 0;
 }
