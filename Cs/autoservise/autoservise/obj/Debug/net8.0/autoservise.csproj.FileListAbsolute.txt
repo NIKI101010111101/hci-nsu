@@ -1,0 +1,14 @@
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\bin\Debug\net8.0\autoservise.exe
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\bin\Debug\net8.0\autoservise.deps.json
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\bin\Debug\net8.0\autoservise.runtimeconfig.json
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\bin\Debug\net8.0\autoservise.dll
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\bin\Debug\net8.0\autoservise.pdb
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\obj\Debug\net8.0\autoservise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\obj\Debug\net8.0\autoservise.AssemblyInfoInputs.cache
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\obj\Debug\net8.0\autoservise.AssemblyInfo.cs
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\obj\Debug\net8.0\autoservise.csproj.CoreCompileInputs.cache
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\obj\Debug\net8.0\autoservise.dll
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\obj\Debug\net8.0\refint\autoservise.dll
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\obj\Debug\net8.0\autoservise.pdb
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\obj\Debug\net8.0\autoservise.genruntimeconfig.cache
+C:\Users\arsen\OneDrive\Desktop\autoservise\autoservise\obj\Debug\net8.0\ref\autoservise.dll

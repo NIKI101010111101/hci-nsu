@@ -1,0 +1,14 @@
+C:\Users\arsen\source\repos\chz\bin\Debug\net8.0\chz.exe
+C:\Users\arsen\source\repos\chz\bin\Debug\net8.0\chz.deps.json
+C:\Users\arsen\source\repos\chz\bin\Debug\net8.0\chz.runtimeconfig.json
+C:\Users\arsen\source\repos\chz\bin\Debug\net8.0\chz.dll
+C:\Users\arsen\source\repos\chz\bin\Debug\net8.0\chz.pdb
+C:\Users\arsen\source\repos\chz\obj\Debug\net8.0\chz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsen\source\repos\chz\obj\Debug\net8.0\chz.AssemblyInfoInputs.cache
+C:\Users\arsen\source\repos\chz\obj\Debug\net8.0\chz.AssemblyInfo.cs
+C:\Users\arsen\source\repos\chz\obj\Debug\net8.0\chz.csproj.CoreCompileInputs.cache
+C:\Users\arsen\source\repos\chz\obj\Debug\net8.0\chz.dll
+C:\Users\arsen\source\repos\chz\obj\Debug\net8.0\refint\chz.dll
+C:\Users\arsen\source\repos\chz\obj\Debug\net8.0\chz.pdb
+C:\Users\arsen\source\repos\chz\obj\Debug\net8.0\chz.genruntimeconfig.cache
+C:\Users\arsen\source\repos\chz\obj\Debug\net8.0\ref\chz.dll

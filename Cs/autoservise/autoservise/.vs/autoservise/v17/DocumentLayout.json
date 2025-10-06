@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arsen\\OneDrive\\Desktop\\autoservise\\autoservise\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{346E6E2C-8E9E-4B17-B2BC-3CD04D53F28D}|autoservise.csproj|c:\\users\\arsen\\onedrive\\desktop\\autoservise\\autoservise\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E6E2C-8E9E-4B17-B2BC-3CD04D53F28D}|autoservise.csproj|solutionrelative:service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E6E2C-8E9E-4B17-B2BC-3CD04D53F28D}|autoservise.csproj|c:\\users\\arsen\\onedrive\\desktop\\autoservise\\autoservise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E6E2C-8E9E-4B17-B2BC-3CD04D53F28D}|autoservise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{346E6E2C-8E9E-4B17-B2BC-3CD04D53F28D}|autoservise.csproj|c:\\users\\arsen\\onedrive\\desktop\\autoservise\\autoservise\\autoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{346E6E2C-8E9E-4B17-B2BC-3CD04D53F28D}|autoservise.csproj|solutionrelative:autoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoService.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\Desktop\\autoservise\\autoservise\\AutoService.cs",
+              "RelativeDocumentMoniker": "AutoService.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\Desktop\\autoservise\\autoservise\\AutoService.cs",
+              "RelativeToolTip": "AutoService.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwFIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:47:36.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\Desktop\\autoservise\\autoservise\\Service.cs",
+              "RelativeDocumentMoniker": "Service.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\Desktop\\autoservise\\autoservise\\Service.cs",
+              "RelativeToolTip": "Service.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:29:45.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\Desktop\\autoservise\\autoservise\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\Desktop\\autoservise\\autoservise\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T06:11:40.196Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
