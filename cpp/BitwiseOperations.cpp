@@ -94,5 +94,6 @@ int main()
     BitOfNum(num);
     BitOfNum2(num);
     std::cout << MaxOnes(num) << std::endl;
+    std::cout << std::endl;
     return 0;
 }
