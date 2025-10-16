@@ -106,6 +106,5 @@ int main()
     std::string reversed = BitNumReverse(num);
     std::cout << BinToDec(reversed) << std::endl;
     std::cout << BitNumReverse(num) << std::endl;
-    // std::cout << std::endl;
     return 0;
 }
