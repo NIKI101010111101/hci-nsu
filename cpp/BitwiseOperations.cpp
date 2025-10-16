@@ -2,23 +2,6 @@
 #include <string>
 #include <algorithm>
 
-std::string DecToDifChislo(int num, std::string& result, int base)
-{
-    while (num > 0)
-    {
-        int count = num %base;
-        if (count < 10) {
-            result += ('0' + count);
-        } else {
-            result += ('a' + count - 10);
-        }
-        num /= base;
-    }
-    std::reverse(result.begin(), result.end());
-    return result;
-}
-
-
 int MaxOnes (int num, int num_bit = 32)
 {
     int maxOnes = 0;
@@ -63,17 +46,16 @@ void BitOfNum(int num)
     std::cout << std::endl;
 }
 
-void BitOfNum2(int num, int num_bit = 32)
+void BitOfNum2(int num, bool flag = false, int num_bit = 32)
 {
-    bool check = false;
     for (int i = num_bit - 1; i >= 0; i--)
     {
         int mask = 1 << i;
         if (!((num & mask) == 0))
         {
             std::cout << "1";
-            check = true;
-        } else if(check)
+            flag = true;
+        } else if(flag)
         {
             std::cout << "0";
         }
@@ -81,19 +63,49 @@ void BitOfNum2(int num, int num_bit = 32)
     std::cout << std::endl;
 }
 
+int BinToDec(std::string& num)
+{
+    int result = 0;
+    int base = 2;
+
+    for (char c : num)
+    {
+        int digit = (c >= '0' && c <= '9') ? c - '0' : c - 'a' + 10;
+        result = result * base + digit;
+    }
+    return result;
+}
+
+std::string BitNumReverse(int num, int num_bit = 32)
+{
+    std::string result = "";
+    int bit = 0;
+    for (int i = 0; i < num; num >>= 1)
+    {
+        bit++;
+        result += std::to_string(num & 1);
+    }
+    for (int i = 0; i < num_bit - bit; i++)
+    {
+        result += "0";
+    }
+    return result;
+}
+
 int main()
 {
-
-    // std::string str = "";
     int num, a;
     std::cin >> num;
-    // str = DecToDifChislo(10, str, 2);
-    // MaxOnes(str);
     std::cout << std::endl;
     std::cout << BitOfN(num) << std::endl;
     BitOfNum(num);
     BitOfNum2(num);
     std::cout << MaxOnes(num) << std::endl;
     std::cout << std::endl;
+    BitOfNum2(num, true);
+    std::string reversed = BitNumReverse(num);
+    std::cout << BinToDec(reversed) << std::endl;
+    std::cout << BitNumReverse(num) << std::endl;
+    // std::cout << std::endl;
     return 0;
 }
