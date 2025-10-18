@@ -1,0 +1,15 @@
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\bin\Debug\net8.0\MethodAndOperatorOverloading.exe
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\bin\Debug\net8.0\MethodAndOperatorOverloading.deps.json
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\bin\Debug\net8.0\MethodAndOperatorOverloading.runtimeconfig.json
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\bin\Debug\net8.0\MethodAndOperatorOverloading.dll
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\bin\Debug\net8.0\MethodAndOperatorOverloading.pdb
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\MethodAndOperatorOverloading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\MethodAndOperatorOverloading.AssemblyInfoInputs.cache
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\MethodAndOperatorOverloading.AssemblyInfo.cs
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\MethodAndOperatorOverloading.csproj.CoreCompileInputs.cache
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\MethodAndOperatorOverloading.sourcelink.json
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\MethodAndOperatorOverloading.dll
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\refint\MethodAndOperatorOverloading.dll
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\MethodAndOperatorOverloading.pdb
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\MethodAndOperatorOverloading.genruntimeconfig.cache
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\MethodAndOperatorOverloading\obj\Debug\net8.0\ref\MethodAndOperatorOverloading.dll

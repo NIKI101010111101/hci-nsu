@@ -1,0 +1,15 @@
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\bin\Debug\net8.0\StaffLaba.exe
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\bin\Debug\net8.0\StaffLaba.deps.json
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\bin\Debug\net8.0\StaffLaba.runtimeconfig.json
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\bin\Debug\net8.0\StaffLaba.dll
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\bin\Debug\net8.0\StaffLaba.pdb
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\StaffLaba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\StaffLaba.AssemblyInfoInputs.cache
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\StaffLaba.AssemblyInfo.cs
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\StaffLaba.csproj.CoreCompileInputs.cache
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\StaffLaba.sourcelink.json
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\StaffLaba.dll
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\refint\StaffLaba.dll
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\StaffLaba.pdb
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\StaffLaba.genruntimeconfig.cache
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\StaffLaba\obj\Debug\net8.0\ref\StaffLaba.dll

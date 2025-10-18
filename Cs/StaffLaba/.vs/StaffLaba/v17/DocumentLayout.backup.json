@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arsen\\OneDrive\\Desktop\\hci-nsu\\Cs\\StaffLaba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4217E05A-E3DE-4A5A-A1FB-F471B6B5259B}|StaffLaba.csproj|c:\\users\\arsen\\onedrive\\desktop\\hci-nsu\\cs\\stafflaba\\staffs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217E05A-E3DE-4A5A-A1FB-F471B6B5259B}|StaffLaba.csproj|solutionrelative:staffs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4217E05A-E3DE-4A5A-A1FB-F471B6B5259B}|StaffLaba.csproj|c:\\users\\arsen\\onedrive\\desktop\\hci-nsu\\cs\\stafflaba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4217E05A-E3DE-4A5A-A1FB-F471B6B5259B}|StaffLaba.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Staffs.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\Desktop\\hci-nsu\\Cs\\StaffLaba\\Staffs.cs",
+              "RelativeDocumentMoniker": "Staffs.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\Desktop\\hci-nsu\\Cs\\StaffLaba\\Staffs.cs",
+              "RelativeToolTip": "Staffs.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAAAMMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:10:53.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\OneDrive\\Desktop\\hci-nsu\\Cs\\StaffLaba\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\arsen\\OneDrive\\Desktop\\hci-nsu\\Cs\\StaffLaba\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-15T06:10:03.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
