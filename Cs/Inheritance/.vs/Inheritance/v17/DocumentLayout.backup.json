@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|c:\\users\\arsen\\documents\\github\\hci-nsu\\cs\\inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|c:\\users\\arsen\\documents\\github\\hci-nsu\\cs\\inheritance\\trapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|solutionrelative:trapezoid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|c:\\users\\arsen\\documents\\github\\hci-nsu\\cs\\inheritance\\triangula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|solutionrelative:triangula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|c:\\users\\arsen\\documents\\github\\hci-nsu\\cs\\inheritance\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|solutionrelative:square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|c:\\users\\arsen\\documents\\github\\hci-nsu\\cs\\inheritance\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|solutionrelative:circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|c:\\users\\arsen\\documents\\github\\hci-nsu\\cs\\inheritance\\figura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240C703B-FBA2-4130-AF8C-2A81CF35CFA4}|Inheritance.csproj|solutionrelative:figura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Trapezoid.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Trapezoid.cs",
+              "RelativeDocumentMoniker": "Trapezoid.cs",
+              "ToolTip": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Trapezoid.cs",
+              "RelativeToolTip": "Trapezoid.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:24:13.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Triangula.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Triangula.cs",
+              "RelativeDocumentMoniker": "Triangula.cs",
+              "ToolTip": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Triangula.cs",
+              "RelativeToolTip": "Triangula.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:17:49.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Square.cs",
+              "RelativeDocumentMoniker": "Square.cs",
+              "ToolTip": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Square.cs",
+              "RelativeToolTip": "Square.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:12:02.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Circle.cs",
+              "RelativeDocumentMoniker": "Circle.cs",
+              "ToolTip": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Circle.cs",
+              "RelativeToolTip": "Circle.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:52:54.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Figura.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Figura.cs",
+              "RelativeDocumentMoniker": "Figura.cs",
+              "ToolTip": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Figura.cs",
+              "RelativeToolTip": "Figura.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:35:36.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\arsen\\Documents\\GitHub\\hci-nsu\\Cs\\Inheritance\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:34:56.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
