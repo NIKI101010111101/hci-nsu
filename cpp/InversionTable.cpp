@@ -1,6 +1,5 @@
 #include <cstdlib>
 #include <iostream>
-#include <algorithm>
 
 void createarr(int *arr, int n)
 {
@@ -72,14 +71,14 @@ bool next_inv_perm(int *b, int n)
 {
     if (n == 0) return false;
 
-    int i = n - 1; // индекс, начиная с последнего (т.к. нумерация с 0)
+    int i = n - 1;
     bool flag = true;
 
     while (flag && i >= 0)
     {
         int x = b[i] + 1;
         if (x > n - 1 - i)
-        { // b[i] не может быть больше n - i - 1
+        {
             b[i] = 0;
             i--;
         }
@@ -88,9 +87,9 @@ bool next_inv_perm(int *b, int n)
             b[i] = x;
             flag = false;
         }
-    }        // Если i < 0, это значит, что все инверсии закончились (перебор завершён)
+    }
     if (i < 0)
-        return false; // больше нет следующей перестановки
+        return false;
     return true;
 }
 
