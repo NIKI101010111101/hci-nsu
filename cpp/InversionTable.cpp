@@ -1,5 +1,6 @@
 #include <cstdlib>
 #include <iostream>
+#include <algorithm>
 
 void createarr(int *arr, int n)
 {
@@ -47,7 +48,7 @@ void invtab_to_permut(int *a, int *b, int n)
     {
         if (b[i - 1] == 0)
         {
-            for (int j = 0; j < n - 1; j++)
+            for (int j = 0; j < n; j++)
                 if (a[j] == 0)
                 {
                     a[j] = i;
@@ -56,7 +57,7 @@ void invtab_to_permut(int *a, int *b, int n)
         }
         else
         {
-            for (int j = 0; j < b[i - 1] + count; j++)
+            for (int j = 0; j <= b[i - 1] + count; j++)
             {
                 if (i > a[j] && a[j] != 0)
                     count++;
@@ -67,16 +68,55 @@ void invtab_to_permut(int *a, int *b, int n)
     }
 }
 
+bool next_inv_perm(int *b, int n)
+{
+    if (n == 0) return false;
+
+    int i = n - 1; // индекс, начиная с последнего (т.к. нумерация с 0)
+    bool flag = true;
+
+    while (flag && i >= 0)
+    {
+        int x = b[i] + 1;
+        if (x > n - 1 - i)
+        { // b[i] не может быть больше n - i - 1
+            b[i] = 0;
+            i--;
+        }
+        else
+        {
+            b[i] = x;
+            flag = false;
+        }
+    }        // Если i < 0, это значит, что все инверсии закончились (перебор завершён)
+    if (i < 0)
+        return false; // больше нет следующей перестановки
+    return true;
+}
+
+void all_permut(int* a, int* b, int n)
+{
+    do
+    {
+        a = new int[n]{0};
+        invtab_to_permut(a, b, n);
+        std::cout<< "b = "; printarr(b, n);
+        std::cout<< "a = "; printarr(a, n);
+    }
+    while (next_inv_perm(b, n));
+}
+
 
 int main()
 {
     int n;
-    std::cout <<"Enter N: "<< std::endl;
+    std::cout <<"Enter n: "<< std::endl;
     std::cin >> n;
 
     int* a = new int[n]{0};
     int* b = new int[n]{0};
 
+    //task 1
     // createarr(a, n);
     // printarr(a, n);
     // printarr(b, n);
@@ -86,10 +126,17 @@ int main()
     // free(b);
 
 
+    //task 2
+    // createarr(b, n);
+    // printarr(a, n);
+    // invtab_to_permut(a, b, n);
+    // printarr(a, n);
+    // free(a);
+    // free(b);
+
+    //task 3
     createarr(b, n);
-    printarr(a, n);
-    invtab_to_permut(a, b, n);
-    printarr(a, n);
+    all_permut(a, b, n);
     free(a);
     free(b);
 
