@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cmath>
 #include <string>
-#include <vector>
 #include <algorithm>
 
 void createarr(int* arr, int n)
