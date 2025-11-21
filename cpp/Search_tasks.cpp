@@ -48,7 +48,7 @@ int bin_search2(double* arr, int n, double x)
         return right;
 }
 
-int BoyerMooreSearchAll(std::string str, std::string search_str)
+int BoyerMooreSearchAll(std::string str, std::string search_str, int* index)
 {
     int n = str.size();
     int m = search_str.size();
@@ -68,13 +68,12 @@ int BoyerMooreSearchAll(std::string str, std::string search_str)
         while (s <= n - m)
         {
             int j = m - 1;
-
             while (j >= 0 && search_str[j] == str[s + j])
                 j--;
 
             if (j < 0)
             {
-                std::cout << s << std::endl;
+                index[count] = s;
                 count++;
                 s += (s + m < n) ? badChar[str[s + m]] : 1;
             } else
@@ -133,8 +132,14 @@ int main()
    std::cin >> *str;
    std::cout << "Enter string to search: ";
    std::cin >> *search_str;
+   int* index = new int(str->size());
    int count = 0;
-   std::cout << BoyerMooreSearchAll(*str, *search_str) << std::endl;
+   count = BoyerMooreSearchAll(*str, *search_str, index);
+   std::cout << count << std::endl;
+   for (int i = 0; i < count; i++)
+   {
+       std::cout << index[i] << std::endl;
+   }
    free(str);
    free(search_str);
    return 0;
