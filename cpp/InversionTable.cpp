@@ -36,12 +36,14 @@ void permut_to_invtab(int *a, int *b, int n)
 void invtab_to_permut(int *a, int *b, int n)
 {
     int count = 0;
-    if (b[n - 1] != 0)
+    for (int i = n - 1; i >= 0; i--)
     {
-        std::cout << "NO" << std::endl;
-        return;
+        if (b[i] > n - i - 1)
+        {
+            std::cout << "NO" << std::endl;
+            return;
+        }
     }
-
     std::cout << std::endl;
     for (int i = 1; i < n + 1; i++)
     {
@@ -121,8 +123,8 @@ int main()
     // printarr(b, n);
     // permut_to_invtab(a, b, n);
     // printarr(b, n);
-    // free(a);
-    // free(b);
+    //free(a);
+    //ree(b);
 
 
     //task 2
@@ -130,14 +132,14 @@ int main()
     // printarr(a, n);
     // invtab_to_permut(a, b, n);
     // printarr(a, n);
-    // free(a);
-    // free(b);
+    // delete[] a;
+    // delete[] b;
 
     //task 3
     createarr(b, n);
     all_permut(a, b, n);
-    free(a);
-    free(b);
+    delete[] a;
+    delete[] b;
 
     return 0;
 }

@@ -19,7 +19,7 @@ int bin_search(int* arr, int n, int x)
 {
     int left = 0, right = n - 1, mid;
     while (left <= right) {
-        mid = left + (right - left) / 2;
+        mid = (left + right) / 2;
         if (arr[mid] == x)
             return mid;
         if (arr[mid] < x)
@@ -34,7 +34,7 @@ int bin_search2(double* arr, int n, double x)
 {
     int left = 0, right = n - 1, mid;
     while (left <= right) {
-        mid = left + (right - left) / 2;
+        mid = (left + right) / 2;
         if (arr[mid] == x)
             return mid;
         if (arr[mid] < x)
@@ -42,16 +42,16 @@ int bin_search2(double* arr, int n, double x)
         else
             right = mid - 1;
     }
-    if (x - left < abs(x-right))
+    if (abs(x - arr[left]) < abs(x - arr[right]))
         return left;
     else
         return right;
 }
 
-int BoyerMooreSearchAll(std::string* str, std::string* search_str)
+int BoyerMooreSearchAll(std::string str, std::string search_str)
 {
-    int n = str->size();
-    int m = search_str->size();
+    int n = str.size();
+    int m = search_str.size();
 
     if (n == 0 || m > n || m == 0)
         return -1;
@@ -60,7 +60,7 @@ int BoyerMooreSearchAll(std::string* str, std::string* search_str)
         for (int i = 0; i < 256; i++)
             badChar[i] = m;
         for (int i = 0; i < m - 1; i++)
-            badChar[((*search_str)[i])] = m - i - 1;
+            badChar[search_str[i]] = m - i - 1;
 
         int count = 0;
         int s = 0;
@@ -69,17 +69,17 @@ int BoyerMooreSearchAll(std::string* str, std::string* search_str)
         {
             int j = m - 1;
 
-            while (j >= 0 && (*search_str)[j] == (*str)[s + j])
+            while (j >= 0 && search_str[j] == str[s + j])
                 j--;
 
             if (j < 0)
             {
                 std::cout << s << std::endl;
                 count++;
-                s += (s + m < n) ? badChar[((*str)[s + m])] : 1;
+                s += (s + m < n) ? badChar[str[s + m]] : 1;
             } else
             {
-                int shift = badChar[((*str)[s + j])];
+                int shift = badChar[str[s + m - 1]];
                 s += std::max(1, shift);
             }
         }
@@ -89,7 +89,7 @@ int BoyerMooreSearchAll(std::string* str, std::string* search_str)
 int bin_search3(int a[], int l, int r, int x) {
     int result = -1;
     while (l <= r) {
-        int mid = l + (r - l) / 2;
+        int mid = (l + r) / 2;
         if (a[mid] == x) {
             result = mid;
             l = mid + 1;
@@ -127,39 +127,39 @@ int main()
     // return 0;
 
     //task 3
-   // std::string* str = new std::string();
-   // std::string* search_str = new std::string();
-   // std::cout << "Enter string to search in: ";
-   // std::cin >> *str;
-   // std::cout << "Enter string to search: ";
-   // std::cin >> *search_str;
-   // int count = 0;
-   // std::cout << BoyerMooreSearchAll(str, search_str) << std::endl;
-   // delete[] str;
-   // delete[] search_str;
-   // return 0;
+   std::string* str = new std::string();
+   std::string* search_str = new std::string();
+   std::cout << "Enter string to search in: ";
+   std::cin >> *str;
+   std::cout << "Enter string to search: ";
+   std::cin >> *search_str;
+   int count = 0;
+   std::cout << BoyerMooreSearchAll(*str, *search_str) << std::endl;
+   free(str);
+   free(search_str);
+   return 0;
 
    //task 4
-   int size;
-   std::cout<<"Enter size of array: ";
-   std::cin >> size;
-   int* arr = new int[size];
-   createarr(arr, size);
+//    int size;
+//    std::cout<<"Enter size of array: ";
+//    std::cin >> size;
+//    int* arr = new int[size];
+//    createarr(arr, size);
 
-   int q;
-   std::cout << "Enter number of queries: ";
-   std::cin >> q;
+//    int q;
+//    std::cout << "Enter number of queries: ";
+//    std::cin >> q;
 
-   int prev_anaswer = 0;
-   for (int i = 0; i < q; i++)
-   {
-       int x;
-       std::cin >> x;
-       x += prev_anaswer;
-       int result = bin_search3(arr, 0, size - 1, x);
-       std::cout << result << std::endl;
-       prev_anaswer = result;
-   }
-   delete[] arr;
-   return 0;
+//    int prev_anaswer = 0;
+//    for (int i = 0; i < q; i++)
+//    {
+//        int x;
+//        std::cin >> x;
+//        x += prev_anaswer;
+//        int result = bin_search3(arr, 0, size - 1, x);
+//        std::cout << result << std::endl;
+//        prev_anaswer = result;
+//    }
+//    delete[] arr;
+//    return 0;
 }
