@@ -7,25 +7,26 @@ void print_array(int *arr, int n) {
     std::cout << std::endl;
 }
 
-void ins_sort(int *arr, int n) {
-    for (int i = 1; i < n; i++)
-    {
-        int x = arr[i];
-        int j = i - 1;
-        while (j >= 0 && arr[j] > x)
-        {
-            arr[j + 1] = arr[j];
-            j--;
-        }
-        arr[j + 1] = x;
-    }
-}
 
 void fill_array(int *arr, int n) {
     for (int i = 0; i < n; i++) {
         std::cin >> arr[i];
     }
     std::cout << std::endl;
+}
+
+void ins_sort(int *arr, int n) {
+    for (int i = 1; i < n; i++)
+    {
+        int x = arr[i];
+        int j = i - 1;
+        while (j >= 0 && arr[j] >= x)
+        {
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = x;
+    }
 }
 
 void select_sort(int *arr, int n) {
@@ -74,19 +75,19 @@ void shake_sort(int *arr, int n) {
 int main()
 {
     //task 1
-    // int n;
-    // std::cout << "Enter n: " << std::rightl;
-    // std::cin >> n;
-    // int *arr = new int[n];
-    // fill_array(arr, n);
-    // ins_sort(arr, n);
-    // print_array(arr, n);
-    // delete[] arr;
-    // return 0;
+    int n;
+    std::cout << "Enter n: " << std::endl;
+    std::cin >> n;
+    int *arr = new int[n];
+    fill_array(arr, n);
+    ins_sort(arr, n);
+    print_array(arr, n);
+    delete[] arr;
+    return 0;
 
    //task 2
    // int n;
-   // std::cout << "Enter n: " << std::rightl;
+   // std::cout << "Enter n: " << std::endl;
    // std::cin >> n;
    // int *arr = new int[n];
    // fill_array(arr, n);
@@ -96,14 +97,14 @@ int main()
    // return 0;
 
    //task 3
-   int n;
-   std::cout << "Enter n: " << std::endl;
-   std::cin >> n;
-   int *arr = new int[n];
-   fill_array(arr, n);
-   shake_sort(arr, n);
-   print_array(arr, n);
-   delete[] arr;
-   return 0;
+   // int n;
+   // std::cout << "Enter n: " << std::endl;
+   // std::cin >> n;
+   // int *arr = new int[n];
+   // fill_array(arr, n);
+   // shake_sort(arr, n);
+   // print_array(arr, n);
+   // delete[] arr;
+   // return 0;
 
 }
