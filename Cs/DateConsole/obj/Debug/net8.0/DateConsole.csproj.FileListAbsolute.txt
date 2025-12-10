@@ -1,0 +1,15 @@
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\bin\Debug\net8.0\DateConsole.exe
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\bin\Debug\net8.0\DateConsole.deps.json
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\bin\Debug\net8.0\DateConsole.runtimeconfig.json
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\bin\Debug\net8.0\DateConsole.dll
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\bin\Debug\net8.0\DateConsole.pdb
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\DateConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\DateConsole.AssemblyInfoInputs.cache
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\DateConsole.AssemblyInfo.cs
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\DateConsole.csproj.CoreCompileInputs.cache
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\DateConsole.sourcelink.json
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\DateConsole.dll
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\refint\DateConsole.dll
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\DateConsole.pdb
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\DateConsole.genruntimeconfig.cache
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\DateConsole\obj\Debug\net8.0\ref\DateConsole.dll
