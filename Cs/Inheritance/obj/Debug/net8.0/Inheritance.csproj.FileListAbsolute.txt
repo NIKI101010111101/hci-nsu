@@ -1,0 +1,15 @@
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\bin\Debug\net8.0\Inheritance.exe
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\bin\Debug\net8.0\Inheritance.deps.json
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\bin\Debug\net8.0\Inheritance.runtimeconfig.json
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\bin\Debug\net8.0\Inheritance.dll
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\bin\Debug\net8.0\Inheritance.pdb
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\Inheritance.AssemblyInfoInputs.cache
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\Inheritance.AssemblyInfo.cs
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\Inheritance.sourcelink.json
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\Inheritance.dll
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\refint\Inheritance.dll
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\Inheritance.pdb
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\Inheritance.genruntimeconfig.cache
+C:\Users\arsen\Documents\GitHub\hci-nsu\Cs\Inheritance\obj\Debug\net8.0\ref\Inheritance.dll

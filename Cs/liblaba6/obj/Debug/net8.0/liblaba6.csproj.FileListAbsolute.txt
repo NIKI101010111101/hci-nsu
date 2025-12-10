@@ -1,0 +1,12 @@
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\bin\Debug\net8.0\liblaba6.deps.json
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\bin\Debug\net8.0\liblaba6.dll
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\bin\Debug\net8.0\liblaba6.pdb
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\obj\Debug\net8.0\liblaba6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\obj\Debug\net8.0\liblaba6.AssemblyInfoInputs.cache
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\obj\Debug\net8.0\liblaba6.AssemblyInfo.cs
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\obj\Debug\net8.0\liblaba6.csproj.CoreCompileInputs.cache
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\obj\Debug\net8.0\liblaba6.sourcelink.json
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\obj\Debug\net8.0\liblaba6.dll
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\obj\Debug\net8.0\refint\liblaba6.dll
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\obj\Debug\net8.0\liblaba6.pdb
+C:\Users\arsen\OneDrive\Desktop\hci-nsu\Cs\liblaba6\obj\Debug\net8.0\ref\liblaba6.dll
