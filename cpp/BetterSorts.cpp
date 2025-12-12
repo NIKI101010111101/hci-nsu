@@ -1,6 +1,8 @@
 #include <iostream>
 #include <algorithm>
 
+void heapify(int arr[], int size, int root);
+
 void createArray(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         std::cin >> arr[i];
@@ -31,69 +33,17 @@ void ShellSort(int arr[], int size) {
     }
 }
 
-// void HeapSort(int arr[], int size) {
-//     for (int i = size / 2 - 1; i >= 0; i--) {
-//         heapify(arr, size, i);
-//     }
-//     for (int i = size - 1; i > 0; i--) {
-//         std::swap(arr[0], arr[i]);
-//         heapify(arr, i, 0);
-//     }
-// }
-//
 // Pyramid Sort!!!!
 // **********************************************************************
-void siftDown(int arr[], int start, int end) {
-    int root = start;
-    while (2 * root + 1 <= end) {
-        int child = 2 * root + 1;   // левый потомок
-        int largest = root;
-
-        if (arr[largest] < arr[child]) {
-            largest = child;
-        }
-        // проверка правого потомка
-        if (child + 1 <= end && arr[largest] < arr[child + 1]) {
-            largest = child + 1;
-        }
-
-        if (largest == root) {
-            break;  // куча в порядке
-        }
-
-        // обмен
-        int temp = arr[root];
-        arr[root] = arr[largest];
-        arr[largest] = temp;
-
-        root = largest;
-    }
-}
-
-// Построение max-heap из массива
-void heapify(int arr[], int n) {
-    // последний родитель — узел с индексом (n / 2 - 1)
-    for (int i = n / 2 - 1; i >= 0; --i) {
-        siftDown(arr, i, n - 1);
-    }
-}
-
-// Основная функция сортировки кучей
 void HeapSort(int arr[], int n) {
-    if (n <= 1) return;
+    for (int i = n / 2 - 1; i >= 0; i--)
+        heapify(arr, n, i);
 
-    // 1. Построить max-heap
-    heapify(arr, n);
+    for (int i=n-1; i>=0; i--)
+    {
+        std::swap(arr[0], arr[i]);
 
-    // 2. Последовательно извлекать максимумы
-    for (int end = n - 1; end > 0; --end) {
-        // Переместить корень (максимум) в конец неотсортированной части
-        int temp = arr[0];
-        arr[0] = arr[end];
-        arr[end] = temp;
-
-        // Восстановить кучу в диапазоне [0, end-1]
-        siftDown(arr, 0, end - 1);
+        heapify(arr, i, 0);
     }
 }
 
@@ -120,47 +70,44 @@ void FastSort(int arr[], int size) {
     if (size <= 1) return;
 
     int pivot = arr[size / 2];
-    int i = -1, j = size;
+    int l = -1, r = size;
 
     while (true) {
-        do ++i; while (arr[i] < pivot);
-        do --j; while (arr[j] > pivot);
-        if (i >= j) break;
-        std::swap(arr[i], arr[j]);
+        do ++l; while (arr[l] < pivot);
+        do --r; while (arr[r] > pivot);
+        if (l >= r) break;
+        std::swap(arr[l], arr[r]);
     }
 
-    FastSort(arr, i);
-    FastSort(arr + i, size - i);
+    FastSort(arr, l);
+    FastSort(arr + l, size - l);
 }
 
 int main() {
     //Shell
-    // int n;
-    // std::cin >> n;
-    // int* arr = new int[n];
-    // createArray(arr, n);
-    // printArray(arr, n);
-    // ShellSort(arr, n);
-    // printArray(arr, n);
-    // return 0;
+    int n;
+    std::cin >> n;
+    int* arr = new int[n];
+    createArray(arr, n);
+    ShellSort(arr, n);
+    printArray(arr, n);
+    return 0;
 
     //Pyramid
     // int n;
     // std::cin >> n;
     // int* arr = new int[n];
     // createArray(arr, n);
-    // printArray(arr, n);
     // HeapSort(arr, n);
     // printArray(arr, n);
     // return 0;
 
     //FastSort
-    int n;
-    std::cin >> n;
-    int* arr = new int[n];
-    createArray(arr, n);
-    printArray(arr, n);
-    FastSort(arr, n);
-    printArray(arr, n);
-    return 0;
+    // int n;
+    // std::cin >> n;
+    // int* arr = new int[n];
+    // createArray(arr, n);
+    // FastSort(arr, n);
+    // printArray(arr, n);
+    // return 0;
 }
